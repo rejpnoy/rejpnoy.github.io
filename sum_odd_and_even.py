@@ -6,8 +6,13 @@ def sum_odd_and_even(lst):
     for i in lst:
         if(i % 2 == 0):
             print(str(i) + " EVEN")
+            # Now ADD IT 
+            addSum = sum(i)
+            print(addSum + "TOTAL SUM")
         else:
             print(str(i) + " ODD")
+            addSum = sum(i)
+            print(addSum + "TOTAL SUM")
 
 
     return 
