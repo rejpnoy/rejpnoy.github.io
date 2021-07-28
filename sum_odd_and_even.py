@@ -7,12 +7,15 @@ def sum_odd_and_even(lst):
         if(i % 2 == 0):
             print(str(i) + " EVEN")
             # Now ADD IT 
-            addSum = sum(i)
-            print(addSum + "TOTAL SUM")
+            addSumEven = sum(lst)
+         
+            print(addSumEven + "TOTAL SUM")
         else:
             print(str(i) + " ODD")
-            addSum = sum(i)
-            print(addSum + "TOTAL SUM")
+            print(type(i))
+            addSumOdd = sum(lst)
+          
+            print(addSumOdd + "TOTAL SUM")
 
 
     return 
