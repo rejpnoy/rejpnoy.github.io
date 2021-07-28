@@ -29,10 +29,15 @@ def sum_odd_and_even(lst):
     return 
 
 def sum_odd_and_even1(lst):
-
-    if(lst % 2 ==  0):
-        print(str(lst) + "EVEN")
-    else:
-        print(str(lst) + "ODD")
-    
+    total = 0 
+    for i  in lst:
+       
+        if(i % 2 ==  0):
+            total  = total + i
+            print(str(i) + " EVEN")
+            print(str(total) + " TOTAL EVEN")
+        else:
+            total  = total + i
+            print(str(i) + " ODD")
+            print(str(total) + " EVEN")            
 sum_odd_and_even1(lst)
