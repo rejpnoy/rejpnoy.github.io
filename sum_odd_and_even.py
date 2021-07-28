@@ -5,7 +5,9 @@ def sum_odd_and_even(lst):
 
     for i in lst:
         if(i % 2 == 0):
+            addSum = i
             print(str(i) + " EVEN")
+        
             # Now ADD IT 
             
            # addSumEven = int(i)
