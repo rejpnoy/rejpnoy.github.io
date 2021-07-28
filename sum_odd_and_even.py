@@ -1,4 +1,5 @@
-lst = [1, 2, 3, 4, 5, 6]
+lst1 = [1, 2, 3, 4, 5, 6]
+lst = [-1, -2, -3, -4, -5, -6]
 x = 42
 def sum_odd_and_even(lst):
     print("HELLO")
@@ -36,13 +37,14 @@ def sum_odd_and_even1(lst):
         
         print(type(lst))
         if(i % 2 ==  0):
-           even_sum += i 
-              
+            print(str(i) + " This is an EVEN Number")
+            even_sum = even_sum + i        
         else:
-           odd_sum += i 
-
-    return [even_sum,odd_sum]
+            print(str(i) + " This is an EVEN Number")
+            odd_sum = odd_sum + i
+    print("End Line:")
+    print(even_sum,odd_sum)
+    return(even_sum,odd_sum)
           
-varibale  = sum_odd_and_even1(lst)
+sum_odd_and_even1(lst)
 
-print(varibale)
