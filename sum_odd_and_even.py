@@ -31,13 +31,15 @@ def sum_odd_and_even(lst):
 def sum_odd_and_even1(lst):
     total = 0 
     for i  in lst:
-
+        print(i[3])
         print(type(lst))
         if(i % 2 ==  0):
            
             print(str(i) + " EVEN")
             # add 
-            print(type(lst))
+            
+            print(type(i))
+           
         else:
            
             print(str(i) + " ODD")
