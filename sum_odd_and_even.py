@@ -29,20 +29,20 @@ def sum_odd_and_even(lst):
     return 
 
 def sum_odd_and_even1(lst):
-    total = 0 
+    odd_sum = 0 
+    even_sum = 0 
+
     for i  in lst:
-        print(i[3])
+        
         print(type(lst))
         if(i % 2 ==  0):
-           
-            print(str(i) + " EVEN")
-            # add 
-            
-            print(type(i))
-           
+           even_sum += i 
+              
         else:
-           
-            print(str(i) + " ODD")
-    return 
+           odd_sum += i 
+
+    return [even_sum,odd_sum]
           
-sum_odd_and_even1(lst)
+varibale  = sum_odd_and_even1(lst)
+
+print(varibale)
