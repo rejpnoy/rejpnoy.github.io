@@ -17,11 +17,11 @@ def sum_odd_and_even1(lst):
             even_sum = even_sum + i        
         else:
             #ODD Numbers
-            print(str(i) + " This is an EVEN Number")
+            print(str(i) + " This is an ODD Number")
             odd_sum = odd_sum + i
-    print("End Line:")
+    print("Total of Even and Total of Odd")
     print(even_sum,odd_sum)
-    return
+    return [even_sum,odd_sum]
           
 sum_odd_and_even1(lst)
 
