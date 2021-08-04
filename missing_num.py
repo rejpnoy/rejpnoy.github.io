@@ -19,7 +19,7 @@ def missing_num1(lst):
     for i in  range(lst[0], lst[-1]+1):
         if i not in lst:
             missing_element.append(i)
-    
-    return [missing_element]
+    print(missing_element)
+    return missing_element
 
-missing_num1(lst2)
+missing_num1(lst)
