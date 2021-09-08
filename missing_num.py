@@ -1,4 +1,5 @@
 lst2 = [1, 2, 3, 4, 6, 7, 8, 9, 10]
+
 lst = [7, 2, 3, 6, 5, 9, 1, 4, 8]
 def missing_num(lst):
     n = len(lst)
