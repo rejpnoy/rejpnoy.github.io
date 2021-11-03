@@ -20,6 +20,7 @@
 p1 = "Rock"
 p2 = "Paper"
 def rps(p1, p2):
+	#Rock_BEGIN
 	if(p1 == "Rock" and p2 == "Paper"):
 		print("p2 over comes  p1")
 		return "The winner is p2"
@@ -31,3 +32,4 @@ def rps(p1, p2):
 	return (p1 , p2)
 
 rps(p1,p2)
+
