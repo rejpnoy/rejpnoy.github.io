@@ -13,7 +13,7 @@ class User:
 happy = User("John", "john@gmail.com", "123password123")
 mad = User("Mary")
 
-happy.say_hi("Mary")
+happy.say_hi("Mary")s
 
 happy.changepass(mad)
 
