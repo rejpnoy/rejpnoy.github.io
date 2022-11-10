@@ -17,13 +17,36 @@ def plates():
         print("What is the weight per pounds for each plates: ")
 
         for i in range(0, n):
+            #in for loop
 
             ele = int(input())
             # adds the plated input into the list of elements
             plates_list.append(ele)
-            # gives me the total from the plates_list
+
+        #out of for loop
+        # gives me the total from the plates_list
         print("total of the plates: ")
-        print(sum(plates_list))
+        print(sum(plates_list) * 2 + 35)
+    elif bar_weight == 45:
+        
+        plates_list = []
+
+        n = int(input("How many plates on 1 side?: "))
+        print("What is the weight per pounds for each plates: ")
+
+        for i in range(0, n):
+            #in for loop
+
+            ele = int(input())
+            # adds the plated input into the list of elements
+            plates_list.append(ele)
+
+        #out of for loop
+        # gives me the total from the plates_list
+        print("total of the plates: ")
+        print(sum(plates_list) * 2 + 45)
+    else: 
+        print("Incorrect barbell weight")
     return plates_list
 
 
