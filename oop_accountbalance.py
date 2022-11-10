@@ -18,7 +18,7 @@ class User:
         #self.account_balance = self.account balance + amount
 #want to use the user functions methods .. need to make a withdrawal
     def make_withdrawal(self, amount):
-        self.account_balance -= amount # -= operator actually turns account_balance to a varable and short hands for
+        self.account_balance -= amount # -= operator actually turns account_balance to a varable and short hands for 
         #self.account_balance = self.account balance - amount
         return self
 #display_user_balance  - have this method print the user's name and account balance to the terminal

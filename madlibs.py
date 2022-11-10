@@ -11,7 +11,7 @@ adj = input("Adjective: ")
 verb1 = input("Verb: ")
 verb2 = input("Verb: ")
 famous_person = input("Verb: ")
-
+famous_person = input("verb: ")
 madlib = f"Compuiter is so  {adj}! It makes  me so EXCITED all the time beacuse \
     I love to {verb1}. Stay Hydrated and {verb2} like you are {famous_person}!"
 
