@@ -5,6 +5,16 @@ print("Your name?")
 lifter = input()
 print("Lifter's name: " + lifter.upper())
 
+
+def weightrecord(weight_rec):
+
+    dict = {}
+    dict.update({weight_rec})
+    print("Weight of this has been added to the dictionary list")
+    print(dict)
+    return
+
+
 def plates():
     # inputs in the list of what the lifter puts in. and x times that by 2
     print("how heavy is the bar?: ")
@@ -26,7 +36,10 @@ def plates():
         #out of for loop
         # gives me the total from the plates_list
         print("total of the plates: ")
-        print(sum(plates_list) * 2 + 35)
+        totalweight = sum(plates_list) * 2 + 35
+        print("congrats! " + lifter + " you just repped " + str(totalweight))
+        weightrecord(totalweight)
+
     elif bar_weight == 45:
         
         plates_list = []
@@ -47,8 +60,8 @@ def plates():
         print(sum(plates_list) * 2 + 45)
     else: 
         print("Incorrect barbell weight")
+        pass
     return plates_list
-
 
 
 print(plates())
