@@ -41,11 +41,14 @@ for i in range(len(my_list)):
         convert = mystring.split()
         print(convert)
 
-        for item in reversed(convert):
+        for item in convert:
+            print(convert)
             dict[item] = dict.get(item, 0) + 1
             if dict[item] >= count:
                 count, itm = dict[item], item
-        print(dict)
+        
+        print(itm + " " + str(count))
+
 
 
 
